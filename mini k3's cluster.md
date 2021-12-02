@@ -32,12 +32,13 @@
  Download k3s from latest release, x86_64, armhf, and arm64 are supported.
 
  Run the server.
-
+ 
+```
 sudo k3s server & Kubeconfig is written to /etc/rancher/k3s/k3s.yaml sudo k3s kubectl get nodes
 
-```
 sudo k3s agent --server https://myserver:6443 --token ${NODE_TOKEN}
 
 ```
+
 now your k3s cluster setup with 1 master and 1 worker node ready
 after your lab completed make sure to terminate your instances
