@@ -15,3 +15,9 @@ login to another vm manually and excute below command paste the accesskey and se
 curl -sfL https://get.k3s.io | K3S_URL=https://myserver:6443 K3S_TOKEN=XXX sh -
 
 ```
+For output Follow below command 
+
+```
+kubectl get nodes
+
+```
